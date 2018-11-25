@@ -7,3 +7,4 @@
 * 深度学习之Pytorch - 廖星宇
 * 深度学习之PyTorch实战计算机视觉 - 唐进民
 * pytorch卷积、反卷积 - download from internet
+* A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon
