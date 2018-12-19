@@ -11,6 +11,7 @@
 * famous-CNN 经典的CNN网络
 * Using Pretrained models 使用预训练的模型
 * Dataset-and-Dataloader 自定义数据读取
+* visdom-visualization visdom可视化
 * semantic-segmentation 语义分割
 
 ## Books and slides about PyTorch (some of these are old version)
