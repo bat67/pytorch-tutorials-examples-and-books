@@ -1,3 +1,6 @@
+__pycache__
 .vscode
+.ipynb_checkpoints
 .spyproject
+.idea
 .tmp
