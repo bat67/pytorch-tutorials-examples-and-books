@@ -11,6 +11,7 @@
 * famous-CNN 经典的CNN网络
 * Using Pretrained models 使用预训练的模型
 * Dataset-and-Dataloader 自定义数据读取
+* custom-dataset-example 定义自己的数据集
 * visdom-visualization visdom可视化
 * semantic-segmentation 语义分割
 
