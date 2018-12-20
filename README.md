@@ -13,6 +13,7 @@
 * Dataset-and-Dataloader 自定义数据读取
 * custom-dataset-example 定义自己的数据集
 * visdom-visualization visdom可视化
+* tensorboard-visualization tensorboard可视化
 * semantic-segmentation 语义分割
 
 ## Books and slides about PyTorch (some of these are old version)
