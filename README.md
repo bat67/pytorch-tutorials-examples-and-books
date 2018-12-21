@@ -2,21 +2,21 @@
 
 ## PyTorch 1.0 tutorials and examples
 
-* PyTorch-basics PyTorch基础
-* Linear-regression 线性回归
-* Logistic-regression Logistic 回归
-* optimizer 优化器
-* neural-network 神经网络
-* convolutional-neural-network(CNN) 卷积神经网络
-* famous-CNN 经典的CNN网络
-* Using Pretrained models 使用预训练的模型
-* Dataset-and-Dataloader 自定义数据读取
-* custom-dataset-example 定义自己的数据集
-* visdom-visualization visdom可视化
-* tensorboard-visualization tensorboard可视化
-* semantic-segmentation 语义分割
+* [PyTorch-basics PyTorch基础](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-basics%20PyTorch基础)
+* [Linear-regression 线性回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Linear-regression%20线性回归)
+* [Logistic-regression Logistic 回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Logistic-regression%20Logistic%20回归)
+* [optimizer 优化器](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/optimizer%20优化)
+* [neural-network 神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/neural-network%20神经网络)
+* [convolutional-neural-network(CNN) 卷积神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/convolutional-neural-network(CNN)%20卷积神经网络)
+* [famous-CNN 经典的CNN网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/famous-CNN%20经典的CNN网络)
+* [Using Pretrained models 使用预训练的模型](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Using%20Pretrained%20models%20使用预训练的模型)
+* [Dataset-and-Dataloader 自定义数据读取](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Dataset-and-Dataloader)
+* [custom-dataset-example 定义自己的数据集](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/custom-dataset-example%20定义自己的数据集)
+* [visdom-visualization visdom可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/visdom-visualization%20visdom可视化)
+* [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
+* [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
 
-## Books and slides about PyTorch (some of these are old version)
+## [Books and slides about PyTorch (some of these are old version)](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
 * Deep Learning Toolkits II pytorch example
 * PyTorch 1.0 Bringing research and production together Presentation
