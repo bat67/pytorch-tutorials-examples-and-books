@@ -13,7 +13,7 @@ Quick 3~4 day lecture materials for HKUST students.
 
 If you cannot access the GoogleDoc for somehow, please check out files in slides folder. However, slides in GoogleDrive are always latest. We really appreciate your comments.
 
-**NOTE: Currently, the [Slides-newest from Google Drive]() folder is the lateest.**
+**NOTE: Currently, the [Slides-newest from Google Drive](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D/Slides-newest%20from%20Google%20Drive) folder is the lateest.**
 
 ## Previous Lectures 
 * cf., http://bit.ly/TF_HKUST (3 day crash course using TensorFlow)
