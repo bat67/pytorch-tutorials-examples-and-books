@@ -27,3 +27,5 @@
 * pytorch卷积、反卷积 - download from internet
 * A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon
 * PyTorch_tutorial_0.0.4_余霆嵩
+
+## PyTorch-Zero-To-All-[PyTorch1.0]
