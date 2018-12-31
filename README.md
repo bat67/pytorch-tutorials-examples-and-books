@@ -1,5 +1,13 @@
 # PyTorch tutorials, examples and books
 
+>Table of Contents:
+- [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
+  - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
+  - [Books and slides about PyTorch (some of these are old version)](#books-and-slides-about-pytorch-some-of-these-are-old-version)
+  - [[PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)](#pytorch-zero-to-all-pytorch10httpsgithubcombat67pytorch-tutorials-examples-and-bookstreemasterpytorch-zero-to-all-5bpytorch105d)
+  - [how to run?](#how-to-run)
+
+
 ## PyTorch 1.0 tutorials and examples
 
 * [PyTorch-basics PyTorch基础](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-basics%20PyTorch基础)
@@ -29,3 +37,15 @@
 * PyTorch_tutorial_0.0.4_余霆嵩
 
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
+
+* Slides-newest from Google Drive
+
+## how to run?
+
+Some code in this repo is separated in blocks using `#%%`. 
+A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
+
+Such as:
+* [VScode](Functionality) with [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Spyder](https://pypi.org/project/spyder/) or [Anaconda](https://www.anaconda.com/)
+* [PyCharm](https://www.jetbrains.com/pycharm/)
