@@ -5,7 +5,8 @@
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
   - [Books and slides about PyTorch (some of these are old version)](#books-and-slides-about-pytorch-some-of-these-are-old-version)
   - [[PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)](#pytorch-zero-to-all-pytorch10httpsgithubcombat67pytorch-tutorials-examples-and-bookstreemasterpytorch-zero-to-all-5bpytorch105d)
-  - [how to run?](#how-to-run)
+  - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
+  - [How to run?](#how-to-run)
 
 
 ## PyTorch 1.0 tutorials and examples
@@ -40,7 +41,19 @@
 
 * Slides-newest from Google Drive
 
-## how to run?
+## Udacity: Deep Learning with PyTorch
+
+* Part 1: Introduction to PyTorch and using tensors
+* Part 2: Building fully-connected neural networks with PyTorch
+* Part 3: How to train a fully-connected network with backpropagation on MNIST
+* Part 4: Exercise - train a neural network on Fashion-MNIST
+* Part 5: Using a trained network for making predictions and validating networks
+* Part 6: How to save and load trained models
+* Part 7: Load image data with torchvision, also data augmentation
+* Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
+
+
+## How to run?
 
 Some code in this repo is separated in blocks using `#%%`. 
 A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
