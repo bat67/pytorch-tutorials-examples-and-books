@@ -41,7 +41,7 @@
 
 * Slides-newest from Google Drive
 
-## Udacity: Deep Learning with PyTorch
+## [Udacity: Deep Learning with PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Udacity-Deep-Learning-with-PyTorch)
 
 * Part 1: Introduction to PyTorch and using tensors
 * Part 2: Building fully-connected neural networks with PyTorch
@@ -59,6 +59,6 @@ Some code in this repo is separated in blocks using `#%%`.
 A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
 
 Such as:
-* [VScode](Functionality) with [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-* [Spyder](https://pypi.org/project/spyder/) or [Anaconda](https://www.anaconda.com/)
+* [VSCode](Functionality) with [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [Spyder](https://pypi.org/project/spyder/) with [Anaconda](https://www.anaconda.com/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
