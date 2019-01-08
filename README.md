@@ -3,7 +3,7 @@
 >Table of Contents:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
-  - [Books and slides about PyTorch (some of these are old version)](#books-and-slides-about-pytorch-some-of-these-are-old-version)
+  - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
   - [[PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)](#pytorch-zero-to-all-pytorch10httpsgithubcombat67pytorch-tutorials-examples-and-bookstreemasterpytorch-zero-to-all-5bpytorch105d)
   - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
   - [How to run?](#how-to-run)
@@ -25,7 +25,9 @@
 * [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
 * [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
 
-## [Books and slides about PyTorch (some of these are old version)](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
+## [Books and slides about PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
+
+> Note: some of these are old version
 
 * Deep Learning Toolkits II pytorch example
 * PyTorch 1.0 Bringing research and production together Presentation
@@ -41,6 +43,7 @@
 * 深度学习框架PyTorch：入门与实践 - 陈云
 * PyTorch 0.4 中文文档 - 翻译
 * pytorch 0.4 - tutorial - 有目录版
+* Automatic differentiation in PyTorch - paper
 
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
