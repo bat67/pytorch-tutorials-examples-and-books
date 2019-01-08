@@ -36,6 +36,7 @@
 * pytorch卷积、反卷积 - download from internet
 * A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon
 * PyTorch_tutorial_0.0.4_余霆嵩
+* 深度学习入门之PyTorch - 廖星宇（有目录）
 
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
