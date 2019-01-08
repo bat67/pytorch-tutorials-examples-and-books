@@ -39,6 +39,7 @@
 * 深度学习入门之PyTorch - 廖星宇（有目录）
 * 深度学习框架PyTorch：入门与实践 - 陈云
 * PyTorch 0.4 中文文档 - 翻译
+* pytorch 0.4 - tutorial - 有目录版
 
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
