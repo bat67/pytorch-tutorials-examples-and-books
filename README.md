@@ -79,7 +79,7 @@
 * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
 
 
-## Deep Learning Course Slides and Handout - fleuret.org
+## [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Deep-Learning-Course-Slides-and-Handout)
 
 * 1-1-from-anns-to-deep-learning.pdf
 * 1-2-current-success.pdf
