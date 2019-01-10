@@ -1,4 +1,6 @@
-# PyTorch tutorials, examples and books
+# PyTorch tutorials, examples and books 
+
+![](assets/pytorch-logo.png)
 
 >Table of Contents:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
@@ -6,6 +8,7 @@
   - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
   - [[PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)](#pytorch-zero-to-all-pytorch10httpsgithubcombat67pytorch-tutorials-examples-and-bookstreemasterpytorch-zero-to-all-5bpytorch105d)
   - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
+  - [Deep Learning Course Slides and Handout - fleuret.org](#deep-learning-course-slides-and-handout---fleuretorg)
   - [How to run?](#how-to-run)
 
 
@@ -48,6 +51,21 @@
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
 * Slides-newest from Google Drive
+  * Lecture 01_ Overview.pptx
+  * Lecture 02_ Linear Model.pptx
+  * Lecture 03_ Gradient Descent.pptx
+  * Lecture 04_ Back-propagation and PyTorch autograd.pptx
+  * Lecture 05_ Linear regression  in PyTorch way.pptx
+  * Lecture 06_ Logistic Regression.pptx
+  * Lecture 07_ Wide _ Deep.pptx
+  * Lecture 08_ DataLoader.pptx
+  * Lecture 09_ Softmax Classifier.pptx
+  * Lecture 10_ Basic CNN.pptx
+  * Lecture 11_ Advanced CNN.pptx
+  * Lecture 12_ RNN.pptx
+  * Lecture 13_ RNN II.pptx
+  * Lecture 14_ Seq2Seq.pptx
+  * Lecture 15_ NSML, Smartest ML Platform.pptx
 
 ## [Udacity: Deep Learning with PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Udacity-Deep-Learning-with-PyTorch)
 
@@ -59,6 +77,66 @@
 * Part 6: How to save and load trained models
 * Part 7: Load image data with torchvision, also data augmentation
 * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
+
+
+## Deep Learning Course Slides and Handout - fleuret.org
+
+* 1-1-from-anns-to-deep-learning.pdf
+* 1-2-current-success.pdf
+* 1-3-what-is-happening.pdf
+* 1-4-tensors-and-linear-regression.pdf
+* 1-5-high-dimension-tensors.pdf
+* 1-6-tensor-internals.pdf
+* 2-1-loss-and-risk.pdf
+* 2-2-overfitting.pdf
+* 2-3-bias-variance-dilemma.pdf
+* 2-4-evaluation-protocols.pdf
+* 2-5-basic-embeddings.pdf
+* 3-1-perceptron.pdf
+* 3-2-LDA.pdf
+* 3-3-features.pdf
+* 3-4-MLP.pdf
+* 3-5-gradient-descent.pdf
+* 3-6-backprop.pdf
+* 4-1-DAG-networks.pdf
+* 4-2-autograd.pdf
+* 4-3-modules-and-batch-processing.pdf
+* 4-4-convolutions.pdf
+* 4-5-pooling.pdf
+* 4-6-writing-a-module.pdf
+* 5-1-cross-entropy-loss.pdf
+* 5-2-SGD.pdf
+* 5-3-optim.pdf
+* 5-4-l2-l1-penalties.pdf
+* 5-5-initialization.pdf
+* 5-6-architecture-and-training.pdf
+* 5-7-writing-an-autograd-function.pdf
+* 6-1-benefits-of-depth.pdf
+* 6-2-rectifiers.pdf
+* 6-3-dropout.pdf
+* 6-4-batch-normalization.pdf
+* 6-5-residual-networks.pdf
+* 6-6-using-GPUs.pdf
+* 7-1-CV-tasks.pdf
+* 7-2-image-classification.pdf
+* 7-3-object-detection.pdf
+* 7-4-segmentation.pdf
+* 7-5-dataloader-and-surgery.pdf
+* 8-1-looking-at-parameters.pdf
+* 8-2-looking-at-activations.pdf
+* 8-3-visualizing-in-input.pdf
+* 8-4-optimizing-inputs.pdf
+* 9-1-transposed-convolutions.pdf
+* 9-2-autoencoders.pdf
+* 9-3-denoising-and-variational-autoencoders.pdf
+* 9-4-NVP.pdf
+* 10-1-GAN.pdf
+* 10-2-Wasserstein-GAN.pdf
+* 10-3-conditional-GAN.pdf
+* 10-4-persistence.pdf
+* 11-1-RNN-basics.pdf
+* 11-2-LSTM-and-GRU.pdf
+* 11-3-word-embeddings-and-translation.pdf
 
 
 ## How to run?
