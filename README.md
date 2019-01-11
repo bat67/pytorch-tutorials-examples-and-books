@@ -2,10 +2,20 @@
 
 ![](assets/pytorch-logo.png)
 
->Table of Contents:
+>Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
   - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
+  - [PyTorch深度学习：60分钟入门与实战](#pytorch深度学习60分钟入门与实战)
+    - [什么是PyTorch？（What is PyTorch?）](#什么是pytorchwhat-is-pytorch)
+    - [Autograd：自动求导](#autograd自动求导)
+    - [神经网络（Neural Networks）](#神经网络neural-networks)
+    - [训练分类器（Training a Classifier）](#训练分类器training-a-classifier)
+    - [选读：数据并行处理（Optional: Data Parallelism）](#选读数据并行处理optional-data-parallelism)
+  - [用例子学习PyTorch](#用例子学习pytorch)
+    - [张量(Tensors)](#张量tensors)
+    - [自动求导(Autograd)](#自动求导autograd)
+    - [`nn`模块(`nn` module)](#nn模块nn-module)
   - [[PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)](#pytorch-zero-to-all-pytorch10httpsgithubcombat67pytorch-tutorials-examples-and-bookstreemasterpytorch-zero-to-all-5bpytorch105d)
   - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
   - [Deep Learning Course Slides and Handout - fleuret.org](#deep-learning-course-slides-and-handout---fleuretorg)
@@ -47,6 +57,80 @@
 * PyTorch 0.4 中文文档 - 翻译
 * pytorch 0.4 - tutorial - 有目录版
 * Automatic differentiation in PyTorch - paper
+
+## [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
+
+### 什么是PyTorch？（What is PyTorch?）
+
+  * [入门](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#%E5%85%A5%E9%97%A8)
+    * [张量](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#%E5%BC%A0%E9%87%8F)
+    * [运算](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#%E8%BF%90%E7%AE%97)
+  * [NumPy桥](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#numpy%E6%A1%A5)
+    * [将torch的Tensor转化为NumPy数组](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#%E5%B0%86torch%E7%9A%84tensor%E8%BD%AC%E5%8C%96%E4%B8%BAnumpy%E6%95%B0%E7%BB%84)
+    * [将NumPy数组转化为Torch张量](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#%E5%B0%86numpy%E6%95%B0%E7%BB%84%E8%BD%AC%E5%8C%96%E4%B8%BAtorch%E5%BC%A0%E9%87%8F)
+  * [CUDA上的张量](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/What_is_PyTorch/什么是PyTorch.md#cuda上的张量)
+
+### Autograd：自动求导
+
+  * [张量](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Autograd_Automatic_Differentiation/Autograd%EF%BC%9A自动求导.md#%E5%BC%A0%E9%87%8F)
+  * [梯度](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Autograd_Automatic_Differentiation/Autograd%EF%BC%9A自动求导.md#%E6%A2%AF%E5%BA%A6)
+
+
+### 神经网络（Neural Networks）
+
+  * [定义网络](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Neural_Networks/神经网络.md#定义网络)
+  * [损失函数](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Neural_Networks/神经网络.md#损失函数)
+  * [反向传播](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Neural_Networks/神经网络.md#反向传播)
+  * [更新权重](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Neural_Networks/神经网络.md#更新权重)
+
+### 训练分类器（Training a Classifier）
+
+  * [数据呢？](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#数据呢)
+  * [训练一个图片分类器](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#训练一个图片分类器)
+    * [1.加载并标准化CIFAR10](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#1加载并标准化cifar10)
+    * [2.定义卷积神经网络](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#2定义卷积神经网络)
+    * [3.定义损失函数和优化器](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#3定义损失函数和优化器)
+    * [4.训练网络](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#4训练网络)
+    * [5.使用测试数据测试网络](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#5使用测试数据测试网络)
+  * [在GPU上训练](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#在gpu上训练)
+  * [在多GPU上训练](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#在多gpu上训练)
+  * [接下来要做什么？](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Training_a_Classifier/训练分类器.md#接下来要做什么)
+
+### 选读：数据并行处理（Optional: Data Parallelism）
+
+  * [导入和参数](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#导入和参数)
+  * [虚拟数据集](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#虚拟数据集)
+  * [简单模型](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#简单模型)
+  * [创建一个模型和数据并行](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#创建一个模型和数据并行)
+  * [运行模型](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#运行模型)
+  * [结果](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#结果)
+    * [2个GPU](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#2个gpu)
+    * [3个GPU](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#3个gpu)
+    * [8个GPU](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#8个gpu)
+  * [总结](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#总结)
+
+
+## [用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
+
+### 张量(Tensors)
+
+* [热身：使用NumPy](https://github.com/bat67/pytorch-examples-cn/tree/master/热身%EF%BC%9A使用NumPy)
+* [PyTorch：张量(Tensors)](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A张量(Tensors))
+
+### 自动求导(Autograd)
+
+* [PyTorch：自动求导(Autograd)](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A自动求导(Autograd))
+* [PyTorch：定义自己的自动求导函数](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定义自己的自动求导函数)
+* [TensorFlow：静态图](https://github.com/bat67/pytorch-examples-cn/tree/master/TensorFlow%EF%BC%9A静态图)
+
+### `nn`模块(`nn` module)
+
+* [PyTorch：神经网络模块nn](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定制神经网络nn模块)
+* [PyTorch：优化模块optim](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A优化模块optim)
+* [PyTorch：定制神经网络nn模块](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定制神经网络nn模块)
+* [PyTorch：控制流和参数共享](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A控制流和参数共享)
+
+
 
 ## [PyTorch-Zero-To-All-[PyTorch1.0]](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
