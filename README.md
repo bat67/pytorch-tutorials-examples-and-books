@@ -8,7 +8,8 @@
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
   - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
   - [PyTorch深度学习：60分钟入门与实战](#pytorch深度学习60分钟入门与实战)
-  - [用例子学习PyTorch](#用例子学习pytorch)
+  - [Learning PyTorch with Examples 用例子学习PyTorch](#learning-pytorch-with-examples-用例子学习pytorch)
+  - [计算机视觉与PyTorch](#计算机视觉与pytorch)
   - [PyTorch1.0-Zero-To-All](#pytorch10-zero-to-all)
   - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
   - [Deep Learning Course Slides and Handout - fleuret.org](#deep-learning-course-slides-and-handout---fleuretorg)
@@ -19,7 +20,7 @@
 
 * [PyTorch 1.0 **稳定版**](https://pytorch.org/get-started/locally/) 已经发布，还有什么理由不更新呢~
 
-* 版本变化及迁移指南见[这里](PyTorch版本变化及迁移指南/README.md)。
+* 版本变化及迁移指南见[**这里**](PyTorch版本变化及迁移指南/README.md)。
 
 ## PyTorch 1.0 tutorials and examples
 
@@ -109,7 +110,7 @@
   * [总结](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#总结)
 
 
-## [用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
+## [Learning PyTorch with Examples 用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
 
 * 张量(Tensors)
 
@@ -128,6 +129,12 @@
   * [PyTorch：优化模块optim](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A优化模块optim)
   * [PyTorch：定制神经网络nn模块](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定制神经网络nn模块)
   * [PyTorch：控制流和参数共享](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A控制流和参数共享)
+
+## [计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
+
+* PyTorch与计算机视觉简要总结
+  * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
+  * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
 
 
 
