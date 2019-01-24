@@ -5,6 +5,7 @@
 >Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
   - [PyTorch 版本变化及迁移指南](#pytorch-版本变化及迁移指南)
+  - [PyTorch for Numpy users 给Numpy用户的PyTorch指南](#pytorch-for-numpy-users-给numpy用户的pytorch指南)
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
   - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
   - [PyTorch深度学习：60分钟入门与实战](#pytorch深度学习60分钟入门与实战)
@@ -21,6 +22,9 @@
 * [PyTorch 1.0 **稳定版**](https://pytorch.org/get-started/locally/) 已经发布，还有什么理由不更新呢~
 
 * 版本变化及迁移指南见[**这里**](PyTorch版本变化及迁移指南/README.md)。
+
+## PyTorch for Numpy users 给Numpy用户的PyTorch指南
+
 
 ## PyTorch 1.0 tutorials and examples
 
