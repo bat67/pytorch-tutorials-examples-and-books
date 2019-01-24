@@ -7,14 +7,14 @@
   - [PyTorch 版本变化及迁移指南](#pytorch-版本变化及迁移指南)
   - [PyTorch for Numpy users 给Numpy用户的PyTorch指南](#pytorch-for-numpy-users-给numpy用户的pytorch指南)
   - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
-  - [Books and slides about PyTorch](#books-and-slides-about-pytorch)
+  - [Books and slides about PyTorch 书籍、PPT等](#books-and-slides-about-pytorch-书籍ppt等)
   - [PyTorch深度学习：60分钟入门与实战](#pytorch深度学习60分钟入门与实战)
   - [Learning PyTorch with Examples 用例子学习PyTorch](#learning-pytorch-with-examples-用例子学习pytorch)
   - [计算机视觉与PyTorch](#计算机视觉与pytorch)
   - [PyTorch1.0-Zero-To-All](#pytorch10-zero-to-all)
   - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
   - [Deep Learning Course Slides and Handout - fleuret.org](#deep-learning-course-slides-and-handout---fleuretorg)
-  - [How to run?](#how-to-run)
+  - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
 
 
 ## PyTorch 版本变化及迁移指南
@@ -24,6 +24,7 @@
 * 版本变化及迁移指南见[**这里**](PyTorch版本变化及迁移指南/README.md)。
 
 ## PyTorch for Numpy users 给Numpy用户的PyTorch指南
+* 表格过长，请点击[这里](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)
 
 
 ## PyTorch 1.0 tutorials and examples
@@ -42,9 +43,9 @@
 * [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
 * [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
 
-## [Books and slides about PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
+## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
-> Note: some of these are old version
+> Note: some of these are old version; 下面的书籍部分还不是1.0版本。。毕竟1.0刚出所以书籍较少。。
 
 * Deep Learning Toolkits II pytorch example
 * PyTorch 1.0 Bringing research and production together Presentation
@@ -233,7 +234,7 @@
 * 11-3-word-embeddings-and-translation.pdf
 
 
-## How to run?
+## How to run? 推荐的运行方式
 
 Some code in this repo is separated in blocks using `#%%`. 
 A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
