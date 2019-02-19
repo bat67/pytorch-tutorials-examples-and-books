@@ -42,6 +42,8 @@
 * [visdom-visualization visdom可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/visdom-visualization%20visdom可视化)
 * [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
 * [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
+* Neural-Style (StyleTransfer) 风格迁移
+* Transfer-Learning 迁移学习
 
 ## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
