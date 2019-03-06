@@ -42,8 +42,8 @@
 * [visdom-visualization visdom可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/visdom-visualization%20visdom可视化)
 * [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
 * [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
-* Neural-Style (StyleTransfer) 风格迁移
-* Transfer-Learning 迁移学习
+* [Neural-Style (StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Neural-Style%20(StyleTransfer)%20风格迁移)
+* [Transfer-Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Transfer-Learning%20迁移学习)
 
 ## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
@@ -59,11 +59,13 @@
 * pytorch卷积、反卷积 - download from internet
 * A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon
 * PyTorch_tutorial_0.0.4_余霆嵩
+* PyTorch_tutorial_0.0.5_余霆嵩
 * 深度学习入门之PyTorch - 廖星宇（有目录）
 * 深度学习框架PyTorch：入门与实践 - 陈云
 * PyTorch 0.4 中文文档 - 翻译
 * pytorch 0.4 - tutorial - 有目录版
 * Automatic differentiation in PyTorch - paper
+* PyTorch under the hood A guide to understand PyTorch internals
 
 ## [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
 
