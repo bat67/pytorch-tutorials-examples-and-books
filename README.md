@@ -4,30 +4,28 @@
 
 >Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
-  - [PyTorch 版本变化及迁移指南](#pytorch-版本变化及迁移指南)
-  - [PyTorch for Numpy users 给Numpy用户的PyTorch指南](#pytorch-for-numpy-users-给numpy用户的pytorch指南)
-  - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
-  - [Books and slides about PyTorch 书籍、PPT等](#books-and-slides-about-pytorch-书籍ppt等)
-  - [PyTorch深度学习：60分钟入门与实战](#pytorch深度学习60分钟入门与实战)
-  - [Learning PyTorch with Examples 用例子学习PyTorch](#learning-pytorch-with-examples-用例子学习pytorch)
-  - [计算机视觉与PyTorch](#计算机视觉与pytorch)
-  - [PyTorch1.0-Zero-To-All](#pytorch10-zero-to-all)
-  - [Udacity: Deep Learning with PyTorch](#udacity-deep-learning-with-pytorch)
-  - [Deep Learning Course Slides and Handout - fleuret.org](#deep-learning-course-slides-and-handout---fleuretorg)
-  - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
+  - [1. PyTorch 版本变化及迁移指南](#1-pytorch-版本变化及迁移指南)
+  - [2. PyTorch for Numpy users 给Numpy用户的PyTorch指南](#2-pytorch-for-numpy-users-给numpy用户的pytorch指南)
+  - [3. PyTorch 1.0 tutorials and examples](#3-pytorch-10-tutorials-and-examples)
+  - [4. Books and slides about PyTorch 书籍、PPT等](#4-books-and-slides-about-pytorch-书籍ppt等)
+  - [5. 以下是一些独立的教程](#5-以下是一些独立的教程)
+    - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
+    - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
+    - [3) PyTorch1.0-Zero-To-All](#3-pytorch10-zero-to-all)
+  - [6. How to run? 推荐的运行方式](#6-how-to-run-推荐的运行方式)
 
 
-## PyTorch 版本变化及迁移指南
+## 1. PyTorch 版本变化及迁移指南
 
 * [PyTorch 1.0 **稳定版**](https://pytorch.org/get-started/locally/) 已经发布，还有什么理由不更新呢~
 
 * 版本变化及迁移指南见[**这里**](PyTorch版本变化及迁移指南/README.md)。
 
-## PyTorch for Numpy users 给Numpy用户的PyTorch指南
+## 2. PyTorch for Numpy users 给Numpy用户的PyTorch指南
 * 表格过长，请点击[这里](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)
 
 
-## PyTorch 1.0 tutorials and examples
+## 3. PyTorch 1.0 tutorials and examples
 
 * [PyTorch-basics PyTorch基础](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-basics%20PyTorch基础)
 * [Linear-regression 线性回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Linear-regression%20线性回归)
@@ -44,8 +42,21 @@
 * [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
 * [Neural-Style (StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Neural-Style%20(StyleTransfer)%20风格迁移)
 * [Transfer-Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Transfer-Learning%20迁移学习)
+* [计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
 
-## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
+  * PyTorch与计算机视觉简要总结
+    * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
+    * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
+* Blogs and Articles 一些博客和文章 
+  * [A Tour of PyTorch Internals](https://gist.github.com/killeent/4675635b40b61a45cac2f95a285ce3c0)
+  * [Adversarial Autoencoders (with Pytorch)](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)
+  * [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
+  * [Matrix Factorization in PyTorchn](http://blog.ethanrosenthal.com/2017/06/20/matrix-factorization-in-pytorch/)
+  * [Recursive Neural Networks with PyTorch](https://devblogs.nvidia.com/parallelforall/recursive-neural-networks-pytorch/)
+  * [PyTorch vs TensorFlow: A reddit post about PyTorch and TensorFlow](https://www.reddit.com/r/MachineLearning/comments/5w3q74/d_so_pytorch_vs_tensorflow_whats_the_verdict_on/)
+
+
+## 4. [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
 > Note: some of these are old version; 下面的书籍部分还不是1.0版本。。毕竟1.0刚出所以书籍较少。。
 
@@ -66,8 +77,77 @@
 * pytorch 0.4 - tutorial - 有目录版
 * Automatic differentiation in PyTorch - paper
 * PyTorch under the hood A guide to understand PyTorch internals
+* [Udacity: Deep Learning with PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Udacity-Deep-Learning-with-PyTorch)
+  * Part 1: Introduction to PyTorch and using tensors
+  * Part 2: Building fully-connected neural networks with PyTorch
+  * Part 3: How to train a fully-connected network with backpropagation on MNIST
+  * Part 4: Exercise - train a neural network on Fashion-MNIST
+  * Part 5: Using a trained network for making predictions and validating networks
+  * Part 6: How to save and load trained models
+  * Part 7: Load image data with torchvision, also data augmentation
+  * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
+* [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Deep-Learning-Course-Slides-and-Handout)
+  * 1-1-from-anns-to-deep-learning.pdf
+  * 1-2-current-success.pdf
+  * 1-3-what-is-happening.pdf
+  * 1-4-tensors-and-linear-regression.pdf
+  * 1-5-high-dimension-tensors.pdf
+  * 1-6-tensor-internals.pdf
+  * 2-1-loss-and-risk.pdf
+  * 2-2-overfitting.pdf
+  * 2-3-bias-variance-dilemma.pdf
+  * 2-4-evaluation-protocols.pdf
+  * 2-5-basic-embeddings.pdf
+  * 3-1-perceptron.pdf
+  * 3-2-LDA.pdf
+  * 3-3-features.pdf
+  * 3-4-MLP.pdf
+  * 3-5-gradient-descent.pdf
+  * 3-6-backprop.pdf
+  * 4-1-DAG-networks.pdf
+  * 4-2-autograd.pdf
+  * 4-3-modules-and-batch-processing.pdf
+  * 4-4-convolutions.pdf
+  * 4-5-pooling.pdf
+  * 4-6-writing-a-module.pdf
+  * 5-1-cross-entropy-loss.pdf
+  * 5-2-SGD.pdf
+  * 5-3-optim.pdf
+  * 5-4-l2-l1-penalties.pdf
+  * 5-5-initialization.pdf
+  * 5-6-architecture-and-training.pdf
+  * 5-7-writing-an-autograd-function.pdf
+  * 6-1-benefits-of-depth.pdf
+  * 6-2-rectifiers.pdf
+  * 6-3-dropout.pdf
+  * 6-4-batch-normalization.pdf
+  * 6-5-residual-networks.pdf
+  * 6-6-using-GPUs.pdf
+  * 7-1-CV-tasks.pdf
+  * 7-2-image-classification.pdf
+  * 7-3-object-detection.pdf
+  * 7-4-segmentation.pdf
+  * 7-5-dataloader-and-surgery.pdf
+  * 8-1-looking-at-parameters.pdf
+  * 8-2-looking-at-activations.pdf
+  * 8-3-visualizing-in-input.pdf
+  * 8-4-optimizing-inputs.pdf
+  * 9-1-transposed-convolutions.pdf
+  * 9-2-autoencoders.pdf
+  * 9-3-denoising-and-variational-autoencoders.pdf
+  * 9-4-NVP.pdf
+  * 10-1-GAN.pdf
+  * 10-2-Wasserstein-GAN.pdf
+  * 10-3-conditional-GAN.pdf
+  * 10-4-persistence.pdf
+  * 11-1-RNN-basics.pdf
+  * 11-2-LSTM-and-GRU.pdf
+  * 11-3-word-embeddings-and-translation.pdf
 
-## [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
+
+## 5. 以下是一些独立的教程
+
+### 1) [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
 
 * 什么是PyTorch？（What is PyTorch?）
 
@@ -119,7 +199,7 @@
   * [总结](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#总结)
 
 
-## [Learning PyTorch with Examples 用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
+### 2) [Learning PyTorch with Examples 用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
 
 * 张量(Tensors)
 
@@ -139,15 +219,11 @@
   * [PyTorch：定制神经网络nn模块](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定制神经网络nn模块)
   * [PyTorch：控制流和参数共享](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A控制流和参数共享)
 
-## [计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
-
-* PyTorch与计算机视觉简要总结
-  * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
-  * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
 
 
 
-## [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
+
+### 3) [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
 
 * Slides-newest from Google Drive
   * Lecture 01_ Overview.pptx
@@ -166,79 +242,12 @@
   * Lecture 14_ Seq2Seq.pptx
   * Lecture 15_ NSML, Smartest ML Platform.pptx
 
-## [Udacity: Deep Learning with PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Udacity-Deep-Learning-with-PyTorch)
-
-* Part 1: Introduction to PyTorch and using tensors
-* Part 2: Building fully-connected neural networks with PyTorch
-* Part 3: How to train a fully-connected network with backpropagation on MNIST
-* Part 4: Exercise - train a neural network on Fashion-MNIST
-* Part 5: Using a trained network for making predictions and validating networks
-* Part 6: How to save and load trained models
-* Part 7: Load image data with torchvision, also data augmentation
-* Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
 
 
-## [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Deep-Learning-Course-Slides-and-Handout)
-
-* 1-1-from-anns-to-deep-learning.pdf
-* 1-2-current-success.pdf
-* 1-3-what-is-happening.pdf
-* 1-4-tensors-and-linear-regression.pdf
-* 1-5-high-dimension-tensors.pdf
-* 1-6-tensor-internals.pdf
-* 2-1-loss-and-risk.pdf
-* 2-2-overfitting.pdf
-* 2-3-bias-variance-dilemma.pdf
-* 2-4-evaluation-protocols.pdf
-* 2-5-basic-embeddings.pdf
-* 3-1-perceptron.pdf
-* 3-2-LDA.pdf
-* 3-3-features.pdf
-* 3-4-MLP.pdf
-* 3-5-gradient-descent.pdf
-* 3-6-backprop.pdf
-* 4-1-DAG-networks.pdf
-* 4-2-autograd.pdf
-* 4-3-modules-and-batch-processing.pdf
-* 4-4-convolutions.pdf
-* 4-5-pooling.pdf
-* 4-6-writing-a-module.pdf
-* 5-1-cross-entropy-loss.pdf
-* 5-2-SGD.pdf
-* 5-3-optim.pdf
-* 5-4-l2-l1-penalties.pdf
-* 5-5-initialization.pdf
-* 5-6-architecture-and-training.pdf
-* 5-7-writing-an-autograd-function.pdf
-* 6-1-benefits-of-depth.pdf
-* 6-2-rectifiers.pdf
-* 6-3-dropout.pdf
-* 6-4-batch-normalization.pdf
-* 6-5-residual-networks.pdf
-* 6-6-using-GPUs.pdf
-* 7-1-CV-tasks.pdf
-* 7-2-image-classification.pdf
-* 7-3-object-detection.pdf
-* 7-4-segmentation.pdf
-* 7-5-dataloader-and-surgery.pdf
-* 8-1-looking-at-parameters.pdf
-* 8-2-looking-at-activations.pdf
-* 8-3-visualizing-in-input.pdf
-* 8-4-optimizing-inputs.pdf
-* 9-1-transposed-convolutions.pdf
-* 9-2-autoencoders.pdf
-* 9-3-denoising-and-variational-autoencoders.pdf
-* 9-4-NVP.pdf
-* 10-1-GAN.pdf
-* 10-2-Wasserstein-GAN.pdf
-* 10-3-conditional-GAN.pdf
-* 10-4-persistence.pdf
-* 11-1-RNN-basics.pdf
-* 11-2-LSTM-and-GRU.pdf
-* 11-3-word-embeddings-and-translation.pdf
 
 
-## How to run? 推荐的运行方式
+
+## 6. How to run? 推荐的运行方式
 
 Some code in this repo is separated in blocks using `#%%`. 
 A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
