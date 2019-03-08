@@ -63,6 +63,7 @@
 * Deep Learning Toolkits II pytorch example
 * PyTorch 1.0 Bringing research and production together Presentation
 * Deep Learning with PyTorch - Packet Vishnu Subramanian
+* PyTorch Recipes - A Problem-Solution Approach - Pradeepta Mishra
 * PyTorch深度学习实战 - 侯宜军（pdf）
 * PyTorch深度学习实战 - 侯宜军（epub）
 * 深度学习之Pytorch - 廖星宇
