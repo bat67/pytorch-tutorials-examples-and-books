@@ -12,6 +12,7 @@
     - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
     - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
     - [3) PyTorch1.0-Zero-To-All](#3-pytorch10-zero-to-all)
+    - [4) Grokking PyTorch](#4-grokking-pytorch)
   - [6. How to run? 推荐的运行方式](#6-how-to-run-推荐的运行方式)
 
 
@@ -244,7 +245,15 @@
   * Lecture 15_ NSML, Smartest ML Platform.pptx
 
 
+### 4) [Grokking PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/Grokking%20PyTorch/Grokking%20PyTorch.md)
 
+* Imports
+* Setup
+* Data
+* Model
+* Training
+* Testing
+* Extra
 
 
 
