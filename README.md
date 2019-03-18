@@ -2,8 +2,9 @@
 
 ![](assets/pytorch-logo.png)
 
->Table of Contents / 目录:
+## Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
+  - [Table of Contents / 目录:](#table-of-contents--目录)
   - [1. PyTorch 版本变化及迁移指南](#1-pytorch-版本变化及迁移指南)
   - [2. PyTorch for Numpy users 给Numpy用户的PyTorch指南](#2-pytorch-for-numpy-users-给numpy用户的pytorch指南)
   - [3. PyTorch 1.0 tutorials and examples](#3-pytorch-10-tutorials-and-examples)
@@ -20,10 +21,10 @@
 
 * [PyTorch 1.0 **稳定版**](https://pytorch.org/get-started/locally/) 已经发布，还有什么理由不更新呢~
 
-* 版本变化及迁移指南见[**这里**](PyTorch版本变化及迁移指南/README.md)。
+* 版本变化及迁移指南见 [**这里**](PyTorch版本变化及迁移指南/README.md)。
 
 ## 2. PyTorch for Numpy users 给Numpy用户的PyTorch指南
-* 表格过长，请点击[这里](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)
+* 表格过长，请点击 [这里](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)。
 
 
 ## 3. PyTorch 1.0 tutorials and examples
