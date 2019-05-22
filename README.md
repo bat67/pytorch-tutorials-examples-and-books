@@ -5,45 +5,35 @@
 ## Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
   - [Table of Contents / 目录:](#table-of-contents--目录)
-  - [1. PyTorch 版本变化及迁移指南](#1-pytorch-版本变化及迁移指南)
-  - [2. PyTorch for Numpy users 给Numpy用户的PyTorch指南](#2-pytorch-for-numpy-users-给numpy用户的pytorch指南)
-  - [3. PyTorch 1.0 tutorials and examples](#3-pytorch-10-tutorials-and-examples)
-  - [4. Books and slides about PyTorch 书籍、PPT等](#4-books-and-slides-about-pytorch-书籍ppt等)
-  - [5. 以下是一些独立的教程](#5-以下是一些独立的教程)
+  - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
+  - [Books and slides about PyTorch 书籍、PPT等](#books-and-slides-about-pytorch-书籍ppt等)
+  - [以下是一些独立的教程](#以下是一些独立的教程)
     - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
     - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
     - [3) PyTorch1.0-Zero-To-All](#3-pytorch10-zero-to-all)
     - [4) Grokking PyTorch](#4-grokking-pytorch)
-  - [6. How to run? 推荐的运行方式](#6-how-to-run-推荐的运行方式)
+  - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
 
+## PyTorch 1.0 tutorials and examples
 
-## 1. PyTorch 版本变化及迁移指南
+* [0.PyTorch 版本变化及迁移指南](PyTorch版本变化及迁移指南/README.md)
+* [1.PyTorch for Numpy users 给Numpy用户的PyTorch指南](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)
+* [2.PyTorch-basics PyTorch基础](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-basics%20PyTorch基础)
+* [3.Linear-regression 线性回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Linear-regression%20线性回归)
+* [4.Logistic-regression Logistic 回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Logistic-regression%20Logistic%20回归)
+* [5.optimizer 优化器](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/optimizer%20优化)
+* [6.neural-network 神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/neural-network%20神经网络)
+* [7.convolutional-neural-network(CNN) 卷积神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/convolutional-neural-network(CNN)%20卷积神经网络)
+* [8.famous-CNN 经典的CNN网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/famous-CNN%20经典的CNN网络)
+* [9.Using Pretrained models 使用预训练的模型](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Using%20Pretrained%20models%20使用预训练的模型)
+* [10.Dataset-and-Dataloader 自定义数据读取](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Dataset-and-Dataloader)
+* [11.custom-dataset-example 定义自己的数据集](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/custom-dataset-example%20定义自己的数据集)
+* [12.visdom-visualization visdom可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/visdom-visualization%20visdom可视化)
+* [13.tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
+* [14.semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
+* [15.Neural-Style (StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Neural-Style%20(StyleTransfer)%20风格迁移)
+* [17.Transfer-Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Transfer-Learning%20迁移学习)
 
-* [PyTorch 1.0 **稳定版**](https://pytorch.org/get-started/locally/) 已经发布，还有什么理由不更新呢~
-
-* 版本变化及迁移指南见 [**这里**](PyTorch版本变化及迁移指南/README.md)。
-
-## 2. PyTorch for Numpy users 给Numpy用户的PyTorch指南
-* 表格过长，请点击 [这里](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch%20for%20Numpy%20users%20给Numpy用户的PyTorch指南)。
-
-
-## 3. PyTorch 1.0 tutorials and examples
-
-* [PyTorch-basics PyTorch基础](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-basics%20PyTorch基础)
-* [Linear-regression 线性回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Linear-regression%20线性回归)
-* [Logistic-regression Logistic 回归](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Logistic-regression%20Logistic%20回归)
-* [optimizer 优化器](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/optimizer%20优化)
-* [neural-network 神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/neural-network%20神经网络)
-* [convolutional-neural-network(CNN) 卷积神经网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/convolutional-neural-network(CNN)%20卷积神经网络)
-* [famous-CNN 经典的CNN网络](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/famous-CNN%20经典的CNN网络)
-* [Using Pretrained models 使用预训练的模型](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Using%20Pretrained%20models%20使用预训练的模型)
-* [Dataset-and-Dataloader 自定义数据读取](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Dataset-and-Dataloader)
-* [custom-dataset-example 定义自己的数据集](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/custom-dataset-example%20定义自己的数据集)
-* [visdom-visualization visdom可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/visdom-visualization%20visdom可视化)
-* [tensorboard-visualization tensorboard可视化](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/tensorboard-visualization%20tensorboard可视化)
-* [semantic-segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/semantic-segmentation%20语义分割)
-* [Neural-Style (StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Neural-Style%20(StyleTransfer)%20风格迁移)
-* [Transfer-Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Transfer-Learning%20迁移学习)
 * [计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
 
   * PyTorch与计算机视觉简要总结
@@ -58,7 +48,7 @@
   * [PyTorch vs TensorFlow: A reddit post about PyTorch and TensorFlow](https://www.reddit.com/r/MachineLearning/comments/5w3q74/d_so_pytorch_vs_tensorflow_whats_the_verdict_on/)
 
 
-## 4. [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
+## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
 > Note: some of these are old version; 下面的书籍部分还不是1.0版本。。毕竟1.0刚出所以书籍较少。。
 
@@ -152,7 +142,7 @@
   * 11-3-word-embeddings-and-translation.pdf
 
 
-## 5. 以下是一些独立的教程
+## 以下是一些独立的教程
 
 ### 1) [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
 
@@ -262,7 +252,7 @@
 
 
 
-## 6. How to run? 推荐的运行方式
+## How to run? 推荐的运行方式
 
 Some code in this repo is separated in blocks using `#%%`. 
 A block is as same as a cell in `Jupyter Notebook`. So editors/IDEs supporting this functionality is recommanded.
