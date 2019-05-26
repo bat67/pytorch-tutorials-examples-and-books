@@ -33,19 +33,11 @@
 * [14.Semantic_Segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/14.Semantic_Segmentation%20语义分割)
 * [15.Transfer_Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/15.Transfer_Learning%20迁移学习)
 * [16.Neural_Style(StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/16.Neural_Style(StyleTransfer)%20风格迁移)
-
-* [计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
-
+* [A.计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
   * PyTorch与计算机视觉简要总结
     * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
     * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
-* Blogs and Articles 一些博客和文章 
-  * [A Tour of PyTorch Internals](https://gist.github.com/killeent/4675635b40b61a45cac2f95a285ce3c0)
-  * [Adversarial Autoencoders (with Pytorch)](https://blog.paperspace.com/adversarial-autoencoders-with-pytorch/)
-  * [Generative Adversarial Networks (GANs) in 50 lines of code (PyTorch)](https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f)
-  * [Matrix Factorization in PyTorchn](http://blog.ethanrosenthal.com/2017/06/20/matrix-factorization-in-pytorch/)
-  * [Recursive Neural Networks with PyTorch](https://devblogs.nvidia.com/parallelforall/recursive-neural-networks-pytorch/)
-  * [PyTorch vs TensorFlow: A reddit post about PyTorch and TensorFlow](https://www.reddit.com/r/MachineLearning/comments/5w3q74/d_so_pytorch_vs_tensorflow_whats_the_verdict_on/)
+
 
 
 ## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
