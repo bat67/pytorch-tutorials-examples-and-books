@@ -11,7 +11,6 @@
     - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
     - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
     - [3) PyTorch1.0-Zero-To-All](#3-pytorch10-zero-to-all)
-    - [4) Grokking PyTorch](#4-grokking-pytorch)
   - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
 
 ## PyTorch 1.0 tutorials and examples
@@ -37,6 +36,7 @@
   * PyTorch与计算机视觉简要总结
     * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
     * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
+* [B.PyTorch概览](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/B.PyTorch概览/PyTorch概览.md)
 
 
 
@@ -231,16 +231,6 @@
   * Lecture 14_ Seq2Seq.pptx
   * Lecture 15_ NSML, Smartest ML Platform.pptx
 
-
-### 4) [Grokking PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/Grokking%20PyTorch/Grokking%20PyTorch.md)
-
-* Imports
-* Setup
-* Data
-* Model
-* Training
-* Testing
-* Extra
 
 
 
