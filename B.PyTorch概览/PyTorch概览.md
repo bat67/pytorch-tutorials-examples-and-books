@@ -1,15 +1,15 @@
-- [Grokking PyTorch](#grokking-pytorch)
-  - [Imports](#imports)
-  - [Setup](#setup)
-  - [Data](#data)
-  - [Model](#model)
-  - [Training](#training)
-  - [Testing](#testing)
-  - [Extra](#extra)
+- [PyTorch 概览](#pytorch-概览)
+  - [导入相关包](#导入相关包)
+  - [配置](#配置)
+  - [数据](#数据)
+  - [模型](#模型)
+  - [训练](#训练)
+  - [测试](#测试)
+  - [其他](#其他)
 
 
-Grokking PyTorch
-================
+# PyTorch 概览
+
 
 [PyTorch](https://pytorch.org/) is a flexible deep learning framework that allows automatic differentiation through dynamic neural networks (i.e., networks that utilise dynamic control flow like if statements and while loops). It supports GPU acceleration, [distributed training](https://pytorch.org/docs/stable/distributed.html), [various optimisations](https://pytorch.org/2018/05/02/road-to-1.0.html), and plenty more neat features. These are some notes on how I think about using PyTorch, and don't encompass all parts of the library or every best practice, but may be helpful to others.
 
@@ -17,8 +17,7 @@ Neural networks are a subclass of *computation graphs*. Computation graphs recei
 
 The rest of this document, based on the [official MNIST example](https://github.com/pytorch/examples/tree/master/mnist), is about *grokking* PyTorch, and should only be looked at after the [official beginner tutorials](https://pytorch.org/tutorials/). For readability, the code is presented in chunks interspersed with comments, and hence not separated into different functions/files as it would normally be for clean, modular code.
 
-Imports
--------
+## 导入相关包
 
 ```py
 import argparse
@@ -32,8 +31,7 @@ from torchvision import datasets, transforms
 
 These are pretty standard imports, with the exception of the `torchvision` modules that are used for computer vision problems in particular.
 
-Setup
------
+## 配置
 
 ```py
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
@@ -68,8 +66,7 @@ A good way to write device-agnostic code (benefitting from GPU acceleration when
 
 For repeatable experiments, it is necessary to set random seeds for anything that uses random number generation (including `random` or `numpy` if those are used too). Note that cuDNN uses nondeterministic algorithms, and it can be disabled using `torch.backends.cudnn.enabled = False`.
 
-Data
-----
+## 数据
 
 ```py
 data_path = os.path.join(os.path.expanduser('~'), '.torch', 'datasets', 'mnist')
@@ -93,8 +90,7 @@ Since `torchvision` models get stored under `~/.torch/models/`, I like to store 
 
 `DataLoader` contains many options, but beyond `batch_size` and `shuffle`, `num_workers` and `pin_memory` are worth knowing for efficiency. `num_workers` > 0 uses subprocesses to asynchronously load data, rather than making the main process block on this. The typical use-case is when loading data (e.g. images) from disk and maybe transforming them too - this can be done in parallel with the network processing the data. You will want to tune the amount to a) minimise the number of workers and hence CPU and RAM usage (each worker loads a separate batch, not individual samples within a batch) b) minimise the time the network is waiting for data. `pin_memory` uses [pinned memory](https://pytorch.org/docs/master/notes/cuda.html#use-pinned-memory-buffers) (as opposed to paged memory) to speed up any RAM to GPU transfers (and does nothing for CPU-only code).
 
-Model
------
+## 模型
 
 ```py
 class Net(nn.Module):
@@ -140,8 +136,7 @@ def forward(self, x, hx, drop=False):
     return hx2
 ```
 
-Training
---------
+## 训练
 
 ```py
 model.train()
@@ -176,8 +171,7 @@ One way to cut the computation graph is to use `.detach()`, which you may use wh
 
 Apart from logging results in the console/in a log file, it's important to checkpoint model parameters (and optimiser state) just in case. You can also use `torch.save()` to save normal Python objects, but other standard choices include the built-in `pickle`.
 
-Testing
--------
+## 测试
 
 ```py
 model.eval()
@@ -201,8 +195,7 @@ In response to `.train()` earlier, networks should explicitly be set to evaluati
 
 As mentioned previously, the computation graph would normally be made when using a network. By using the `no_grad` context manager via `with torch.no_grad()` this is prevented from happening.
 
-Extra
------
+## 其他
 
 This is an extra section just to add a few useful asides.
 
