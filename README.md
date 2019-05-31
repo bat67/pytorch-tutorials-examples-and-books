@@ -69,7 +69,6 @@
     <details>
     <summary>展开查看</summary>
     <pre>
-    <code>
   * Part 1: Introduction to PyTorch and using tensors
   * Part 2: Building fully-connected neural networks with PyTorch
   * Part 3: How to train a fully-connected network with backpropagation on MNIST
@@ -78,7 +77,6 @@
   * Part 6: How to save and load trained models
   * Part 7: Load image data with torchvision, also data augmentation
   * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
-    </code>
     </pre>
     </details>
 * [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)：Slides-newest from Google Drive
@@ -168,6 +166,10 @@
 ## 以下是一些独立的教程
 
 ### 1) [PyTorch深度学习：60分钟入门与实战](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn)
+    
+<details>
+<summary>展开查看</summary>
+<pre>
 
 * 什么是PyTorch？（What is PyTorch?）
 
@@ -218,8 +220,14 @@
     * [8个GPU](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#8个gpu)
   * [总结](https://github.com/bat67/Deep-Learning-with-PyTorch-A-60-Minute-Blitz-cn/blob/master/Optional_Data_Parallelism/数据并行处理.md#总结)
 
+</pre>
+</details>
 
 ### 2) [Learning PyTorch with Examples 用例子学习PyTorch](https://github.com/bat67/pytorch-examples-cn)
+
+<details>
+<summary>展开查看</summary>
+<pre>
 
 * 张量(Tensors)
 
@@ -239,7 +247,8 @@
   * [PyTorch：定制神经网络nn模块](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A定制神经网络nn模块)
   * [PyTorch：控制流和参数共享](https://github.com/bat67/pytorch-examples-cn/tree/master/PyTorch%EF%BC%9A控制流和参数共享)
 
-
+</pre>
+</details>
 
 ## How to run? 推荐的运行方式
 
