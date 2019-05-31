@@ -10,7 +10,6 @@
   - [以下是一些独立的教程](#以下是一些独立的教程)
     - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
     - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
-    - [3) PyTorch1.0-Zero-To-All](#3-pytorch10-zero-to-all)
   - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
 
 ## PyTorch 1.0 tutorials and examples
@@ -67,6 +66,10 @@
 * 深度学习之Pytorch - 廖星宇.pdf
 * 深度学习之PyTorch实战计算机视觉 - 唐进民.pdf
 * [Udacity: Deep Learning with PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Udacity-Deep-Learning-with-PyTorch)
+    <details>
+    <summary>展开查看</summary>
+    <pre>
+    <code>
   * Part 1: Introduction to PyTorch and using tensors
   * Part 2: Building fully-connected neural networks with PyTorch
   * Part 3: How to train a fully-connected network with backpropagation on MNIST
@@ -75,7 +78,34 @@
   * Part 6: How to save and load trained models
   * Part 7: Load image data with torchvision, also data augmentation
   * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
+    </code>
+    </pre>
+    </details>
+* [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)：Slides-newest from Google Drive
+    <details>
+    <summary>展开查看</summary>
+    <pre>
+  * Lecture 01_ Overview.pptx
+  * Lecture 02_ Linear Model.pptx
+  * Lecture 03_ Gradient Descent.pptx
+  * Lecture 04_ Back-propagation and PyTorch autograd.pptx
+  * Lecture 05_ Linear regression  in PyTorch way.pptx
+  * Lecture 06_ Logistic Regression.pptx
+  * Lecture 07_ Wide _ Deep.pptx
+  * Lecture 08_ DataLoader.pptx
+  * Lecture 09_ Softmax Classifier.pptx
+  * Lecture 10_ Basic CNN.pptx
+  * Lecture 11_ Advanced CNN.pptx
+  * Lecture 12_ RNN.pptx
+  * Lecture 13_ RNN II.pptx
+  * Lecture 14_ Seq2Seq.pptx
+  * Lecture 15_ NSML, Smartest ML Platform.pptx
+    </pre>
+    </details>
 * [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Deep-Learning-Course-Slides-and-Handout)
+    <details>
+    <summary>展开查看</summary>
+    <pre>
   * 1-1-from-anns-to-deep-learning.pdf
   * 1-2-current-success.pdf
   * 1-3-what-is-happening.pdf
@@ -132,7 +162,8 @@
   * 11-1-RNN-basics.pdf
   * 11-2-LSTM-and-GRU.pdf
   * 11-3-word-embeddings-and-translation.pdf
-
+    </pre>
+    </details>
 
 ## 以下是一些独立的教程
 
@@ -210,30 +241,6 @@
 
 
 
-
-
-### 3) [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)
-
-* Slides-newest from Google Drive
-  * Lecture 01_ Overview.pptx
-  * Lecture 02_ Linear Model.pptx
-  * Lecture 03_ Gradient Descent.pptx
-  * Lecture 04_ Back-propagation and PyTorch autograd.pptx
-  * Lecture 05_ Linear regression  in PyTorch way.pptx
-  * Lecture 06_ Logistic Regression.pptx
-  * Lecture 07_ Wide _ Deep.pptx
-  * Lecture 08_ DataLoader.pptx
-  * Lecture 09_ Softmax Classifier.pptx
-  * Lecture 10_ Basic CNN.pptx
-  * Lecture 11_ Advanced CNN.pptx
-  * Lecture 12_ RNN.pptx
-  * Lecture 13_ RNN II.pptx
-  * Lecture 14_ Seq2Seq.pptx
-  * Lecture 15_ NSML, Smartest ML Platform.pptx
-
-
-
-
 ## How to run? 推荐的运行方式
 
 Some code in this repo is separated in blocks using `#%%`. 
@@ -243,3 +250,6 @@ Such as:
 * [VSCode](Functionality) with [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 * [Spyder](https://pypi.org/project/spyder/) with [Anaconda](https://www.anaconda.com/)
 * [PyCharm](https://www.jetbrains.com/pycharm/)
+
+
+
