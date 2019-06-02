@@ -79,7 +79,7 @@
   * Part 8: Use transfer learning to train a state-of-the-art image classifier for dogs and cats
     </pre>
     </details>
-* [PyTorch1.0-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/PyTorch-Zero-To-All-%5BPyTorch1.0%5D)：Slides-newest from Google Drive
+* [PyTorch-Zero-To-All](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides/PyTorch-Zero-To-All%20Slides-newest%20from%20Google%20Drive)：Slides-newest from Google Drive
     <details>
     <summary>展开查看</summary>
     <pre>
@@ -100,7 +100,7 @@
   * Lecture 15_ NSML, Smartest ML Platform.pptx
     </pre>
     </details>
-* [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/Deep-Learning-Course-Slides-and-Handout)
+* [Deep Learning Course Slides and Handout - fleuret.org](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides/Deep-Learning-Course-Slides-and-Handout)
     <details>
     <summary>展开查看</summary>
     <pre>
