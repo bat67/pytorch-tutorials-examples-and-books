@@ -2,6 +2,8 @@
 
 > Note: some of these are old version; 下面的书籍部分还不是1.0版本。。毕竟1.0刚出所以书籍较少。。
 
+> 该目录更新可能有延迟，全部资料请看本文件夹内文件
+
 * A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon.pdf
 * Automatic differentiation in PyTorch.pdf
 * Deep Architectures.pdf
