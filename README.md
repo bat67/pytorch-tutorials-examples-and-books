@@ -5,14 +5,14 @@
 ## Table of Contents / 目录:
 - [PyTorch tutorials, examples and books](#pytorch-tutorials-examples-and-books)
   - [Table of Contents / 目录:](#table-of-contents--目录)
-  - [PyTorch 1.0 tutorials and examples](#pytorch-10-tutorials-and-examples)
+  - [PyTorch 1.x tutorials and examples](#pytorch-1x-tutorials-and-examples)
   - [Books and slides about PyTorch 书籍、PPT等](#books-and-slides-about-pytorch-书籍ppt等)
   - [以下是一些独立的教程](#以下是一些独立的教程)
     - [1) PyTorch深度学习：60分钟入门与实战](#1-pytorch深度学习60分钟入门与实战)
     - [2) Learning PyTorch with Examples 用例子学习PyTorch](#2-learning-pytorch-with-examples-用例子学习pytorch)
   - [How to run? 推荐的运行方式](#how-to-run-推荐的运行方式)
 
-## PyTorch 1.0 tutorials and examples
+## PyTorch 1.x tutorials and examples
 
 * [0.PyTorch 版本变化及迁移指南](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/0.PyTorch版本变化及迁移指南)
 * [1.PyTorch_for_Numpy_Users 给Numpy用户的PyTorch指南](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/1.PyTorch_for_Numpy_users%20给Numpy用户的PyTorch指南)
@@ -41,7 +41,10 @@
 
 ## [Books and slides about PyTorch 书籍、PPT等](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)
 
-> Note: some of these are old version; 下面的书籍部分还不是1.0版本。。毕竟1.0刚出所以书籍较少。。
+> Note: some of these are old version; 下面的书籍部分还不是1.x版本。
+
+
+> 该目录更新可能有延迟，全部资料请看[该文件夹](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/books-and-slides)内文件
 
 * A brief summary of the PTDC ’18 PyTorch 1.0 Preview and Promise - Hacker Noon.pdf
 * Automatic differentiation in PyTorch.pdf
