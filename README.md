@@ -31,10 +31,10 @@
 * [14.Semantic_Segmentation 语义分割](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/14.Semantic_Segmentation%20语义分割)
 * [15.Transfer_Learning 迁移学习](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/15.Transfer_Learning%20迁移学习)
 * [16.Neural_Style(StyleTransfer) 风格迁移](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/16.Neural_Style(StyleTransfer)%20风格迁移)
-* [A.计算机视觉与PyTorch](https://github.com/bat67/vision-with-pytorch)
+* [A.计算机视觉与PyTorch](https://github.com/bat67/pytorch-tutorials-examples-and-books/tree/master/A.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E4%B8%8EPyTorch)
   * PyTorch与计算机视觉简要总结
-    * [Markdown version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
-    * [Notebook version](https://github.com/bat67/vision-with-pytorch/blob/master/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
+    * [Markdown version](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/A.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E4%B8%8EPyTorch/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.md)
+    * [Notebook version](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/A.%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E4%B8%8EPyTorch/PyTorch%20and%20computer%20vision%20tasks%EF%BC%9Aa%20summary.ipynb)
 * [B.PyTorch概览](https://github.com/bat67/pytorch-tutorials-examples-and-books/blob/master/B.PyTorch概览/PyTorch概览.md)
 
 
